@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="controller.html">
+        <label for="fName">Frist Name:</label>
+    <input type="text" required placeholder="Enter Your First Name" id="fName">
+    <br><br>
+    <label for="lName">Last Name:</label>
+    <input type="text" required placeholder="Enter Your Last Name" id="lName">
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" required placeholder="Enter Your Email" id="email">
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" required placeholder="Enter Your Password" id="password">
+    <br><br>
+    <label for="phone">Phone number:</label>
+    <input type="number" placeholder="Enter Your Phone number" id="phone">
+    <br><br>
+    <label for="">Select Gender:</label>
+    <br>    
+    <input name="gender" type="radio"id="man" >
+    <label for="man">Man</label>    
+    <input name="gender" type="radio"id="woman" >
+    <label for="woman">Woman</label>
+    <input name="gender" type="radio"id="others" >
+    <label for="others">Others</label>
+    <br><br>
+    <select name="" id="">
+        <option value=""selected disabled>----Select your division----</option>
+        <option value="">Barisal</option>
+        <option value="">Chittagong</option>
+        <option value="">Dhaka</option>
+        <option value="">Rajshai</option>
+        <option value="">Khulna</option>
+        <option value="">Sylhet</option>
+        <option value="">Mymenshing</option>
+    </select>
+    <br><br>
+    <input type="file" accept=".pdf">
+    <br><br>
+    <label for="birth">Select your birth date:</label>
+    <input type="date">
+    <br><br>
+    <label for="date and time">Select your date and time:</label>
+    <input type="datetime-local">
+    <input type="time" name="" id="">
+    <br><br>
+    <label for="">Write details about yourself:</label>
+    <br>
+    <textarea name="" id="" cols="60" rows="8"></textarea>
+    <br><br>
+    <button type="submit">Submit</button>
+    </form>
+    <hr>
+    <h2 align="center" ><u>Table</u></h2>
+    <table border="10" width="500" height="400" align="center">
+       <tbody align="center">
+        <tr>
+            <td>
+                <table width="100%" border="1"height="60" cellpaddding="0" cellspacing="0">
+                    <tr align="center">
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td> 
+                        <td bgcolor="#34495e"><font color="white">14</font></td> 
+                    </tr>
+
+                </table>
+                <table width="100%" border="1"height="60" cellpaddding="0" cellspacing="0">
+                    <tr align="center">
+                        <td>11</td>
+                        <td>12</td>
+                        <td bgcolor="#2ecc71">13</td> 
+                        <td>14</td> 
+                        <td>15</td> 
+                    </tr>
+
+                </table>
+                <table width="100%" border="1"height="60"cellpaddding="0" cellspacing="0">
+                    <tr align="center">
+                        <td bgcolor="#e74c3c"><font color="white">11</font></td>
+                        <td bgcolor="#9b59b6">12</td>
+                        
+                    </tr>
+
+                </table>
+
+            </td>            
+        </tr>
+       
+       </tbody>
+    </table>
+    
+</body>
+</html>
